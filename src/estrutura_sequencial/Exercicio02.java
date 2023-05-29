@@ -15,7 +15,7 @@ public class Exercicio02 {
         Scanner leia = new Scanner(System.in);
 
 
-        System.out.println("Digite o valor do raio de um circulo:");
+        System.out.println("Digite o valor do raio de um circulo");
         double raio = leia.nextDouble();
 
         double area = 3.14159 * Math.pow(raio, 2);
