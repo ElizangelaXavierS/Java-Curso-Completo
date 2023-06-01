@@ -5,7 +5,7 @@ import java.util.Scanner;
 incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser
 impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.*/
 
-public class ExercicioWhile {
+public class Exercicio01 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
 
