@@ -1,18 +1,18 @@
-package estrutura_sequencial;
+package estrutura_repetitiva;
 
 import java.util.Scanner;
 
-public class Exercicio08 {
+public  class Exercicio08 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
 
         System.out.println("Digite um número:");
         int numero = leia.nextInt();
 
-        int fatorial = 0;
+        int fatorial = 1;
 
-        for(int i = 1; i < numero; i++){
-            fatorial = numero * i;
+        for(int i = 1; i <= numero; i++){
+            fatorial = fatorial * i;
         }
         System.out.println(fatorial);
 
@@ -20,4 +20,3 @@ public class Exercicio08 {
 
     }
 }
-
