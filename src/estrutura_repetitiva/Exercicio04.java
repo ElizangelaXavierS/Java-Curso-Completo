@@ -10,13 +10,12 @@ public class Exercicio04 {
         System.out.println("Digite um número:");
         int x = leia.nextInt();
 
-        int impares = 0;
-     for (int i = 1 ; i <= x; i++){
-         if( i % 2 != 0){
-             System.out.println(i);
-         }
+        for (int i = 1; i <= x; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
 
-     }
+        }
 
     }
 }
