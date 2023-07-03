@@ -14,16 +14,14 @@ public class Programa {
         String nome = sc.nextLine();
         System.out.print("Preço: ");
         double preco = sc.nextDouble();
-        System.out.print("Quantidade em estoque: ");
-        int quantidade = sc.nextInt();
 
-        Produto produto = new Produto(nome, preco, quantidade);
+        Produto produto = new Produto(nome, preco);
 
         System.out.println();
         System.out.println("Informações do produto: " + produto);
         System.out.println();
-        System.out.print("Informe a quantidade de produtos a serem adicionados ao estoque:: ");
-        quantidade = sc.nextInt();
+        System.out.print("Informe a quantidade de produtos a serem adicionados ao estoque: ");
+        int quantidade = sc.nextInt();
         produto.adicionarProdutos(quantidade);
         System.out.println();
         System.out.println("Dados atualizados: " + produto);

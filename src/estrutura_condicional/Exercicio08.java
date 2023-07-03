@@ -21,7 +21,7 @@ public class Exercicio08 {
             System.out.println(salarioImposto);
 
         }else if(salario > 3000 && salario <= 4500){
-        salarioImposto = (salario - 3000)* 0.18 + 1000 * 0.08;
+        salarioImposto = (salario - 3000)* 0.18 + 1500 * 0.08;
             System.out.println(salarioImposto);
 
         }else {
